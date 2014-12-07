@@ -1,12 +1,15 @@
 {
 	"name": "epinfer",
 	"description": "Extract as much information as possible from a video filename.",
-	"version": "0.1.0-alpha",
+	"version": "0.1.0",
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"keywords": ["episode", "video", "filename"],
 	"main": "./lib/init.js",
 	"repository": "git@github.com:skerit/epinfer.git",
 	"license": "MIT",
+	"dependencies": {
+		"protoblast": "0.1.x"
+	},
 	"engines": {
 		"node": ">=0.10"
 	}
