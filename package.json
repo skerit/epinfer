@@ -19,7 +19,7 @@
 	},
 	"license": "LGPL3",
 	"scripts": {
-		"test": "node_modules/.bin/mocha --reporter spec"
+		"test": "node_modules/.bin/mocha --ui tdd --reporter spec"
 	},
 	"dependencies": {
 		"protoblast": "0.1.x"
