@@ -16,13 +16,13 @@ var tests = [
 	'Simpsons,.The.12x08.A.Bas.Le.Sergent.Skinner.FR.avi',
 	'[™] Futurama - S03E22 - Le chef de fer à 30% ( 30 Percent Iron Chef ).mkv',
 	'The Office - S06xE01.avi',
-	'The Office [401] Fun Run.avi',
 	'Psych.S02E02.65.Million.Years.Off.avi',
-	'Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi',
-	'Pokémon S16 - E29 - 1280*720 HDTV VF.mkv',
 	'One.Piece.E576.VOSTFR.720p.HDTV.x264-MARINE-FORD.srt',
 	'One.Piece.E576.VOSTFR.720p.HDTV.x264-MARINE-FORD.mkv',
-	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi'
+	'Pokémon S16 - E29 - 1280*720 HDTV VF.mkv',
+	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi',
+	'Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi',
+	'The Office [401] Fun Run.avi'
 ];
 
 //tests = ['Doctor.Who.(2005).1x01.Rose.mp4']
@@ -30,9 +30,9 @@ var tests = [
 tests.forEach(function(name) {
 	var result;
 
+	console.log('\nProcessing "' + name + '":');
 	result = epinfer.process(name);
-
-	console.log('Processed "' + name + '":');
+	console.log(result.usedString('_'))
 	console.log(result.getData());
 });
 return
