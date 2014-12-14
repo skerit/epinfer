@@ -19,10 +19,16 @@ epinfer.process('Homeland.S02E01.HDTV.x264-EVOLVE.mp4');
 
 // An object will be returned
 /*
-{ season: 2,
+{ _quality: 160,
+  subtype: 'episode',
+  container: 'MPEG-4 Part 14',
+  extension: 'mp4',
+  filetype: 'video',
   episode: 1,
-  series: 'Homeland',
+  season: 2,
   format: 'HDTV',
-  video_codec: 'h264' }
+  video_codec: 'h264',
+  release_group: 'EVOLVE',
+  series: 'Homeland' }
 */
 ```

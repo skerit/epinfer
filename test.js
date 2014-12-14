@@ -1,5 +1,4 @@
 var epinfer = require('./index.js');
-//require('protoblast')(true);
 
 var tests = [
 	'Breaking.Bad.(Minisodes).01.Good.Cop.Bad.Cop.WEBRip.XviD.avi',
@@ -33,26 +32,9 @@ var tests = [
 	'Doctor Who (2005) - S06E13 - The Wedding of River Song.mkv',
 	'Marvels.Agents.of.S.H.I.E.L.D.S01E06.720p.HDTV.X264-DIMENSION.mkv',
 	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi',
-	'Something.1xAll-FlexGet'
+	'Something.1xAll-FlexGet',
+	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4'
 ];
-
-tests = ['Series/dexter/Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi']
-
-var languages = require('country-data').languages;
-
-//console.log(languages);
-//return;
-
-// var yaml = require('js-yaml'),
-//     fs = require('fs');
-
-// var doc = yaml.safeLoad(fs.readFileSync('./test/episodes.yaml', 'utf8'));
-
-// console.log(doc)
-
-// return
-
-//tests = ['Doctor.Who.(2005).1x01.Rose.mp4']
 
 tests.forEach(function(name) {
 	var result;
@@ -61,77 +43,4 @@ tests.forEach(function(name) {
 	result = epinfer.process(name);
 	console.log(result.usedString('_'))
 	console.log(result.getData());
-});
-return
-/**
- * Get the string after the wanted property, but before any others
- *
- * @author   Jelle De Loecker   <jelle@kipdola.be>
- * @since    0.1.2
- * @version  0.1.2
- */
-EpinferResult.setMethod(function getAfter(propertyname) {
-
-	var newBegin,
-	    result = this.source,
-	    newEnd = Infinity,
-	    ranges = [],
-	    curEnd,
-	    temp,
-	    key,
-	    b,
-	    e,
-	    i;
-
-	console.log('Get after: ' + propertyname);
-
-	if (propertyname == null) {
-		return result;
-	}
-
-	temp = this.data[propertyname];
-	newBegin = temp.begin;
-	curEnd = temp.end;
-
-	if (temp) {
-
-		for (key in this.data) {
-			if (this.data[key].begin >= temp.end) {
-				ranges.push({begin: this.data[key].begin, end: this.data[key].end});
-			}
-		}
-
-		// Order the found ranges
-		A.sortByPath(ranges, 1, 'begin');
-
-		console.log(ranges)
-
-		for (i = 0; i < ranges.length; i++) {
-			b = ranges[i].begin;
-			e = ranges[i].end;
-
-			// if (this.data[key].begin > temp.end && this.data[key].begin < newEnd) {
-			// 	console.log(key + ' begins at ' + this.data[key].begin)
-			// 	newEnd = this.data[key].begin;
-			// }
-
-			if (curEnd == b) {
-				newBegin = b;
-				curEnd = e;
-			}
-		}
-
-		console.log(temp.end + ' > ' + newEnd)
-
-		// If we found a new ending, only return up to that point
-		if (isFinite(curEnd)) {
-			result = result.slice(newBegin, curEnd);
-		} else {
-			result = result.slice(newBegin);
-		}
-	}
-
-	console.log(result)
-
-	return {modIndex: temp.end, result: result};
 });
