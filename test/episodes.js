@@ -14,7 +14,7 @@ suite('Episodes', function() {
 	Object.each(episodes, function eachEp(episode, filename) {
 		test(filename, function() {
 
-			var data = epinfer.getData(filename);
+			var data = epinfer.parse(filename);
 
 			Object.each(episode, function eachProperty(value, property) {
 
