@@ -1,14 +1,33 @@
 {
 	"name": "epinfer",
-	"description": "Extract as much information as possible from a video filename.",
-	"version": "0.1.0",
+	"description": "Extract as much information as possible from a filename.",
+	"version": "1.0.0",
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
-	"keywords": ["episode", "video", "filename"],
+	"keywords": [
+		"file",
+		"name",
+		"filename",
+		"sanitize",
+		"extract",
+		"episode",
+		"video"
+	],
 	"main": "./lib/init.js",
-	"repository": "git@github.com:skerit/epinfer.git",
-	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:skerit/epinfer.git"
+	},
+	"license": "LGPL3",
+	"scripts": {
+		"test": "node_modules/.bin/mocha --ui tdd --reporter spec"
+	},
 	"dependencies": {
-		"protoblast": "0.1.x"
+		"protoblast": "0.1.x",
+		"country-data": "0.0.x"
+	},
+	"devDependencies": {
+		"mocha": "1.20.x",
+		"js-yaml": "3.2.x"
 	},
 	"engines": {
 		"node": ">=0.10"
