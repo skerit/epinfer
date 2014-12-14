@@ -36,7 +36,12 @@ var tests = [
 	'Something.1xAll-FlexGet'
 ];
 
-tests = ['The.Office.(US).1x03.Health.Care.HDTV.XviD-LOL.avi']
+tests = ['Series/dexter/Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi']
+
+var languages = require('country-data').languages;
+
+//console.log(languages);
+//return;
 
 // var yaml = require('js-yaml'),
 //     fs = require('fs');

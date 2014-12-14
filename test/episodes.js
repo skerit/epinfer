@@ -16,8 +16,6 @@ suite('Episodes', function() {
 
 			var data = epinfer.getData(filename);
 
-			//console.log(data);
-
 			Object.each(episode, function eachProperty(value, property) {
 
 				var a, b;
@@ -44,16 +42,10 @@ suite('Episodes', function() {
 
 				if (Date.isDate(b)) {
 					b = b.getFullYear() + '-' + (b.getMonth()+1).toPaddedString(2) + '-' + b.getDate().toPaddedString(2);
-					console.log(data)
 				}
 
 				assert.equal(a, b, 'Property "' + property + '" missmatch: ' + JSON.stringify(data[property]) + ' == ' + JSON.stringify(value));
 			});
-
-			//console.log(epinfer.process(filename));
 		});
 	});
-
-	//console.log(episodes);
-
 });

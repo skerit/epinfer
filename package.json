@@ -22,7 +22,8 @@
 		"test": "node_modules/.bin/mocha --ui tdd --reporter spec"
 	},
 	"dependencies": {
-		"protoblast": "0.1.x"
+		"protoblast": "0.1.x",
+		"country-data": "0.0.x"
 	},
 	"devDependencies": {
 		"mocha": "1.20.x",

@@ -1096,18 +1096,6 @@
   screen_size: 1080i
   series: FooBar
 
-? FooBar 360
-: options: -n -t episode
-  screen_size: 360p
-  series: FooBar
-
-? BarFood christmas special HDTV
-: options: -n -t episode --expected-series BarFood
-  format: HDTV
-  series: BarFood
-  title: christmas special
-  episodeDetails: Special
-
 ? Something.2008x12.13-FlexGet
 : options: -n -t episode
   series: Something
