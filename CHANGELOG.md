@@ -1,4 +1,9 @@
-## 0.1.1 (WIP)
+## 1.0.1 (WIP)
+
+* Fix h.264 recognition
+* Add the total used characters to the score
+
+## 1.0.0 (2014-12-14)
 
 * Read out type of file
 * Read out quality of file

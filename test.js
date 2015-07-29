@@ -1,4 +1,5 @@
 var epinfer = require('./index.js');
+//epinfer.debug = true;
 
 var tests = [
 	'Breaking.Bad.(Minisodes).01.Good.Cop.Bad.Cop.WEBRip.XviD.avi',
@@ -33,7 +34,8 @@ var tests = [
 	'Marvels.Agents.of.S.H.I.E.L.D.S01E06.720p.HDTV.X264-DIMENSION.mkv',
 	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi',
 	'Something.1xAll-FlexGet',
-	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4'
+	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4',
+	'The.X-Files.S05E06.Christmas.Carol.720p.HULU.WEBRip.AAC2.0.H.264-NTb.mkv'
 ];
 
 tests.forEach(function(name) {
