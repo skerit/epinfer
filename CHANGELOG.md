@@ -2,6 +2,7 @@
 
 * Fix h.264 recognition
 * Add the total used characters to the score
+* Add new match rules
 
 ## 1.0.0 (2014-12-14)
 

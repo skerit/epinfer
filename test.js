@@ -35,7 +35,8 @@ var tests = [
 	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi',
 	'Something.1xAll-FlexGet',
 	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4',
-	'The.X-Files.S05E06.Christmas.Carol.720p.HULU.WEBRip.AAC2.0.H.264-NTb.mkv'
+	'The.X-Files.S05E06.Christmas.Carol.720p.HULU.WEBRip.AAC2.0.H.264-NTb.mkv',
+	'itv-cosmos1x4-sd.sample.mkv'
 ];
 
 tests.forEach(function(name) {
