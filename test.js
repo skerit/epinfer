@@ -1,9 +1,9 @@
 var epinfer = require('./index.js');
 //epinfer.debug = true;
+var yaml = require('js-yaml');
 
 var tests = [
 	'Breaking.Bad.(Minisodes).01.Good.Cop.Bad.Cop.WEBRip.XviD.avi',
-	'Kaamelott - Livre V - Ep 23 - Le Forfait.avi',
 	'the.simpsons.2401.hdtv-lol.mp4',
 	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4',
 	'the.mentalist.501.hdtv-lol.mp4',
@@ -36,14 +36,44 @@ var tests = [
 	'Something.1xAll-FlexGet',
 	'Homeland.S02E01.HDTV.x264-EVOLVE.mp4',
 	'The.X-Files.S05E06.Christmas.Carol.720p.HULU.WEBRip.AAC2.0.H.264-NTb.mkv',
-	'itv-cosmos1x4-sd.sample.mkv'
+	'itv-cosmos1x4-sd.sample.mkv',
+	'Gotham.S01E01.Pilot.SWESUB.720p.wbdl.x264.ac3-314r.mkv',
+	'Gotham.S01E01.720p.HDTV-D-I-M-E-N-S-I-O-N.nzb',
+	'Gotham.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi',
+	'Marvels.Agents.of.S.H.I.E.L.D.S01E01.Pilot.GERMAN.DUBBED.WS.WEBRip.x264-TVP{{Best-of-senet.info}}.nzb',
+	'Rizzoli & Isles S01e02[Mux - XviD - Ita Mp3][TntVillage]',
+	'Vikings_S03e01-10_[Mux_-_1080p_-_H264_-_Ita_Ac3_Eng_Ac3_5.1_-_So.rar',
+	'series/Psych/Psych S02 Season 2 Complete English DVD/Psych.S02E02.65.Million.Years.Off.avi'
 ];
 
 tests.forEach(function(name) {
-	var result;
+
+	var result,
+	    data,
+	    temp,
+	    obj,
+	    key;
+
+	result = epinfer.process(name);
+	data = result.getData();
 
 	console.log('\nProcessing "' + name + '":');
-	result = epinfer.process(name);
-	console.log(result.usedString('_'))
+	console.log(result.usedString('_'));
 	console.log(result.getData());
+
+	temp = {};
+
+	for (key in data) {
+		if (key[0] == '_') {
+			continue;
+		}
+
+		temp[key] = data[key];
+	}
+
+	obj = {};
+	obj[name] = temp;
+
+	// Output YAML string
+	//console.log(yaml.dump(obj, {sortKeys: true}))
 });

@@ -1,0 +1,473 @@
+# YAML Style tests
+
+Breaking.Bad.(Minisodes).01.Good.Cop.Bad.Cop.WEBRip.XviD.avi:
+  container: Audio Video Interleave
+  episode: 1
+  episode_format: Minisodes
+  extension: avi
+  filetype: video
+  format: WEBRip
+  subtype: episode
+  title: Good Cop Bad Cop
+  video_codec: XviD
+
+the.simpsons.2401.hdtv-lol.mp4:
+  container: MPEG-4 Part 14
+  episode: 1
+  extension: mp4
+  filetype: video
+  format: HDTV
+  release_group: lol
+  season: 24
+  series: The Simpsons
+  subtype: episode
+
+Homeland.S02E01.HDTV.x264-EVOLVE.mp4:
+  container: MPEG-4 Part 14
+  episode: 1
+  extension: mp4
+  filetype: video
+  format: HDTV
+  release_group: EVOLVE
+  season: 2
+  series: Homeland
+  subtype: episode
+  video_codec: h264
+
+the.mentalist.501.hdtv-lol.mp4:
+  container: MPEG-4 Part 14
+  episode: 1
+  extension: mp4
+  filetype: video
+  format: HDTV
+  release_group: lol
+  season: 5
+  series: The Mentalist
+  subtype: episode
+
+new.girl.117.hdtv-lol.mp4:
+  container: MPEG-4 Part 14
+  episode: 17
+  extension: mp4
+  filetype: video
+  format: HDTV
+  release_group: lol
+  season: 1
+  series: New Girl
+  subtype: episode
+
+The.Office.(US).1x03.Health.Care.HDTV.XviD-LOL.avi:
+  container: Audio Video Interleave
+  episode: 3
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: LOL
+  season: 1
+  series: The Office
+  series_country: US
+  subtype: episode
+  title: Health Care
+  video_codec: XviD
+
+Doctor.Who.(2005).1x01.Rose.mp4:
+  container: MPEG-4 Part 14
+  episode: 1
+  extension: mp4
+  filetype: video
+  season: 1
+  series: Doctor Who
+  series_year: 2005
+  subtype: episode
+  title: Rose
+
+Californication.2x05.Vaginatown.HDTV.XviD-0TV.avi:
+  container: Audio Video Interleave
+  episode: 5
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: 0TV
+  season: 2
+  series: Californication
+  subtype: episode
+  title: Vaginatown
+  video_codec: XviD
+
+'Treme.1x03.Right.Place,.Wrong.Time.HDTV.XviD-NoTV.avi':
+  container: Audio Video Interleave
+  episode: 3
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: NoTV
+  season: 1
+  series: Treme
+  subtype: episode
+  title: 'Right Place, Wrong Time'
+  video_codec: XviD
+
+Duckman - S1E13 Joking The Chicken (unedited).avi:
+  container: Audio Video Interleave
+  edit_status: Unedited
+  episode: 13
+  extension: avi
+  filetype: video
+  season: 1
+  series: Duckman
+  subtype: episode
+  title: Joking The Chicken
+
+'Simpsons,.The.12x08.A.Bas.Le.Sergent.Skinner.FR.avi':
+  container: Audio Video Interleave
+  episode: 8
+  extension: avi
+  filetype: video
+  language: French
+  season: 12
+  series: The Simpsons
+  subtype: episode
+  title: A Bas Le Sergent Skinner
+
+'[™] Futurama - S03E22 - Le chef de fer à 30% ( 30 Percent Iron Chef ).mkv':
+  container: Matroska
+  episode: 22
+  extension: mkv
+  filetype: video
+  season: 3
+  series: Futurama
+  subtype: episode
+  title: 'Le Chef De Fer À 30%'
+
+The Office - S06xE01.avi:
+  container: Audio Video Interleave
+  episode: 1
+  extension: avi
+  filetype: video
+  season: 6
+  series: The Office
+  subtype: episode
+
+Psych.S02E02.65.Million.Years.Off.avi:
+  container: Audio Video Interleave
+  episode: 2
+  extension: avi
+  filetype: video
+  season: 2
+  series: Psych
+  subtype: episode
+  title: 65 Million Years Off
+
+One.Piece.E576.VOSTFR.720p.HDTV.x264-MARINE-FORD.srt:
+  container: SubRip Subtitle File
+  episode: 576
+  extension: srt
+  filetype: subtitle
+  format: HDTV
+  release_group: MARINE-FORD
+  screen_size: 720p
+  series: One Piece
+  subtitle_language: French
+  subtype: episode
+  video_codec: h264
+
+One.Piece.E576.VOSTFR.720p.HDTV.x264-MARINE-FORD.mkv:
+  container: Matroska
+  episode: 576
+  extension: mkv
+  filetype: video
+  format: HDTV
+  release_group: MARINE-FORD
+  screen_size: 720p
+  series: One Piece
+  subtitle_language: French
+  subtype: episode
+  video_codec: h264
+
+'Pokémon S16 - E29 - 1280*720 HDTV VF.mkv':
+  container: Matroska
+  episode: 29
+  extension: mkv
+  filetype: video
+  format: HDTV
+  language: French
+  screen_size: 720p
+  season: 16
+  series: Pokémon
+  subtype: episode
+
+'The Office [401] Fun Run.avi':
+  container: Audio Video Interleave
+  episode: 1
+  extension: avi
+  filetype: video
+  season: 4
+  series: The Office
+  subtype: episode
+  title: Fun Run
+
+Series/Californication/Season 2/Californication.2x05.Vaginatown.HDTV.XviD-0TV.avi:
+  container: Audio Video Interleave
+  episode: 5
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: 0TV
+  season: 2
+  series: Californication
+  subtype: episode
+  title: Vaginatown
+  video_codec: XviD
+
+Real.Time.With.Bill.Maher.2014.10.31.HDTV.XviD-AFG.avi:
+  container: Audio Video Interleave
+  date: '2014-10-31'
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: AFG
+  series: Real Time With Bill Maher
+  subtype: episode
+  video_codec: XviD
+
+'[FlexGet] Test 12':
+  episode: 12
+  release_group: FlexGet
+  series: Test
+  subtype: episode
+
+'[NoobSubs] 06 Sword Art Online II (720p 8bit AAC).mp4':
+  audio_codec: AAC
+  container: MPEG-4 Part 14
+  episode: 6
+  extension: mp4
+  filetype: video
+  release_group: NoobSubs
+  screen_size: 720p
+  subtype: episode
+  title: Sword Art Online Ii
+  video_profile: 8bit
+
+FooBar.7v3.PDTV-FlexGet:
+  episode: 7
+  format: DVB
+  release_group: FlexGet
+  series: Foobar
+  subtype: episode
+  version: 3
+
+FooBar.7.PDTV-FlexGet:
+  episode: 7
+  format: DVB
+  release_group: FlexGet
+  series: Foobar
+  subtype: episode
+
+'Duckman - 101 (01) - 20021107 - I, Duckman.avi':
+  container: Audio Video Interleave
+  date: '2002-11-07'
+  episode: 1
+  extension: avi
+  filetype: video
+  season: 1
+  series: Duckman
+  subtype: episode
+  title: 'I, Duckman'
+
+FlexGet.14.of.21.Title.Here.720p.HDTV.AAC5.1.x264-NOGRP:
+  audio_channels: '5.1'
+  audio_codec: AAC
+  episode: 14
+  episode_count: 21
+  format: HDTV
+  release_group: NOGRP
+  screen_size: 720p
+  series: Flexget
+  subtype: episode
+  title: Title Here
+  video_codec: h264
+
+'Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi':
+  container: Audio Video Interleave
+  episode: 2
+  extension: avi
+  filetype: video
+  format: HDTV
+  language: English
+  release_group: AlFleNi-TeaM
+  season: 5
+  series: Dexter
+  subtitle_language: French
+  subtype: episode
+  title: 'Hello, Bandit'
+  video_codec: XviD
+  website: tvu.org.ru
+
+Doctor Who (2005) - S06E13 - The Wedding of River Song.mkv:
+  container: Matroska
+  episode: 13
+  extension: mkv
+  filetype: video
+  season: 6
+  series: Doctor Who
+  series_year: 2005
+  subtype: episode
+  title: The Wedding Of River Song
+
+Marvels.Agents.of.S.H.I.E.L.D.S01E06.720p.HDTV.X264-DIMENSION.mkv:
+  container: Matroska
+  episode: 6
+  extension: mkv
+  filetype: video
+  format: HDTV
+  release_group: DIMENSION
+  screen_size: 720p
+  season: 1
+  series: Marvels Agents Of Shield
+  subtype: episode
+  video_codec: h264
+
+Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi:
+  container: Audio Video Interleave
+  episode: 19
+  extension: avi
+  filetype: video
+  season: 1
+  series: Friday Night Lights
+  subtype: episode
+  title: Ch-Ch-Ch-Ch-Changes
+
+Something.1xAll-FlexGet:
+  episode_count: .inf
+  release_group: FlexGet
+  season: 1
+  series: Something
+  subtype: episode
+
+Homeland.S02E01.HDTV.x264-EVOLVE.mp4:
+  container: MPEG-4 Part 14
+  episode: 1
+  extension: mp4
+  filetype: video
+  format: HDTV
+  release_group: EVOLVE
+  season: 2
+  series: Homeland
+  subtype: episode
+  video_codec: h264
+
+The.X-Files.S05E06.Christmas.Carol.720p.HULU.WEBRip.AAC2.0.H.264-NTb.mkv:
+  audio_channels: '2.0'
+  audio_codec: AAC
+  container: Matroska
+  episode: 6
+  extension: mkv
+  filetype: video
+  format: WEBRip
+  release_group: NTb
+  screen_size: 720p
+  season: 5
+  series: The X-Files
+  subtype: episode
+  title: Christmas Carol
+  video_codec: h264
+
+itv-cosmos1x4-sd.sample.mkv:
+  container: Matroska
+  episode: 4
+  extension: mkv
+  filetype: video
+  format: SD
+  release_group: itv
+  season: 1
+  series: Cosmos
+  subtype: episode
+
+Gotham.S01E01.Pilot.SWESUB.720p.wbdl.x264.ac3-314r.mkv:
+  audio_codec: AC3
+  container: Matroska
+  episode: 1
+  extension: mkv
+  filetype: video
+  format: WEB-DL
+  release_group: 314r
+  screen_size: 720p
+  season: 1
+  series: Gotham
+  subtitle_language: Swedish
+  subtype: episode
+  title: Pilot
+  video_codec: h264
+
+Gotham.S01E01.720p.HDTV-D-I-M-E-N-S-I-O-N.nzb:
+  container: NewzBin Usenet Index File
+  episode: 1
+  extension: nzb
+  filetype: index
+  format: HDTV
+  release_group: D-I-M-E-N-S-I-O-N
+  screen_size: 720p
+  season: 1
+  series: Gotham
+  subtype: episode
+
+Gotham.S01E01.FASTSUB.VOSTFR.HDTV.XviD-ADDiCTiON.avi:
+  container: Audio Video Interleave
+  episode: 1
+  extension: avi
+  filetype: video
+  format: HDTV
+  release_group: ADDiCTiON
+  season: 1
+  series: Gotham
+  subtitle_language: French
+  subtype: episode
+  video_codec: XviD
+
+'Marvels.Agents.of.S.H.I.E.L.D.S01E01.Pilot.GERMAN.DUBBED.WS.WEBRip.x264-TVP{{Best-of-senet.info}}.nzb':
+  container: NewzBin Usenet Index File
+  episode: 1
+  extension: nzb
+  filetype: index
+  format: WEBRip
+  language: German
+  release_group: TVP
+  season: 1
+  series: Marvels Agents Of Shield
+  subtype: episode
+  title: Pilot
+  video_codec: h264
+
+'Rizzoli & Isles S01e02[Mux - XviD - Ita Mp3][TntVillage]':
+  episode: 2
+  language: Italian
+  mux: true
+  release_group: TntVillage
+  season: 1
+  series: 'Rizzoli & Isles'
+  subtype: episode
+  video_codec: XviD
+
+# Epinfer can't handle multiple audio channels for now
+'Vikings_S03e01-10_[Mux_-_1080p_-_H264_-_Ita_Ac3_Eng_Ac3_5.1_-_So.rar':
+  audio_channels: '5.1'
+  audio_codec: AC3
+  episode: 1
+  mux: true
+  release_group: '10'
+  screen_size: 1080p
+  season: 3
+  series: Vikings
+  subtype: episode
+  video_codec: h264
+
+# Epinfer doesn't do anything with information in directory names
+series/Psych/Psych S02 Season 2 Complete English DVD/Psych.S02E02.65.Million.Years.Off.avi:
+  container: Audio Video Interleave
+  episode: 2
+  extension: avi
+  filetype: video
+  season: 2
+  series: Psych
+  subtype: episode
+  title: 65 Million Years Off

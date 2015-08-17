@@ -1,8 +1,10 @@
-## 1.0.1 (WIP)
+## 1.1.0 (2015-08-17)
 
 * Fix h.264 recognition
 * Add the total used characters to the score
 * Add new match rules
+* Fix languages not always being converted using `country-data`
+* Use own tests instead of those from `guessit`
 
 ## 1.0.0 (2014-12-14)
 

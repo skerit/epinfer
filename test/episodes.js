@@ -8,7 +8,7 @@ suite('Episodes', function() {
 	var episodes,
 	    epinfer;
 
-	episodes = yaml.safeLoad(fs.readFileSync('./test/episodes.yaml', 'utf8'));
+	episodes = yaml.safeLoad(fs.readFileSync('./test/episodes-epinfer.yaml', 'utf8'));
 	epinfer = require('../lib/init.js');
 
 	Object.each(episodes, function eachEp(episode, filename) {
