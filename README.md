@@ -14,8 +14,8 @@ npm install epinfer
 ```javascript
 var epinfer = require('epinfer');
 
-// Call the process method with a filename as parameter
-epinfer.process('Homeland.S02E01.HDTV.x264-EVOLVE.mp4');
+// Call the pars emethod with a filename as parameter
+epinfer.parse('Homeland.S02E01.HDTV.x264-EVOLVE.mp4');
 
 // An object will be returned
 /*
