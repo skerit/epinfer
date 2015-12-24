@@ -43,7 +43,17 @@ var tests = [
 	'Marvels.Agents.of.S.H.I.E.L.D.S01E01.Pilot.GERMAN.DUBBED.WS.WEBRip.x264-TVP{{Best-of-senet.info}}.nzb',
 	'Rizzoli & Isles S01e02[Mux - XviD - Ita Mp3][TntVillage]',
 	'Vikings_S03e01-10_[Mux_-_1080p_-_H264_-_Ita_Ac3_Eng_Ac3_5.1_-_So.rar',
-	'series/Psych/Psych S02 Season 2 Complete English DVD/Psych.S02E02.65.Million.Years.Off.avi'
+	'series/Psych/Psych S02 Season 2 Complete English DVD/Psych.S02E02.65.Million.Years.Off.avi',
+
+	// New tests
+	'BBC.Horizon.2014.Whats.Wrong.with.Our.Weather.720p.HDTV.x264.AAC.MVGroup.org.mkv',
+
+	// "CAM" issue
+	'montebello.camping.s01e01.720p-barehd.mkv',
+
+	// Movie tests?
+	//'Die Hard 1988 1080p BluRay Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo.mkv',
+	//'The.Hobbit.The.Desolation.Of.Smaug.2013.1080p.BluRay.DTS.x264-HDMaNiAcS.mkv',
 ];
 
 tests.forEach(function(name) {
