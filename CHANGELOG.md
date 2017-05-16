@@ -1,3 +1,9 @@
+## 1.1.1 (2017-05-16)
+
+* Fix "cam" being recognized as a CAM release too easily
+* Merge pull request by robertklep: fixes "bluray" not being detected
+* Also detect website urls not inside brackets
+
 ## 1.1.0 (2015-08-17)
 
 * Fix h.264 recognition

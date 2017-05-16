@@ -484,3 +484,29 @@ the.librarians.s01e01.720p.bluray.x264-bia.nzb:
   screen_size: 720p
   video_codec: h264
   release_group: bia
+
+montebello.camping.s01e01.720p-barehd.mkv:
+  series: Montebello Camping
+  container: Matroska
+  subtype: episode
+  extension: mkv
+  filetype: video
+  episode: 1
+  season: 1
+  screen_size: 720p
+  release_group: barehd
+
+BBC.Horizon.2014.Whats.Wrong.with.Our.Weather.720p.HDTV.x264.AAC.MVGroup.org.mkv:
+  series: 'Bbc Horizon'
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 14
+  season: 20
+  format: 'HDTV'
+  screen_size: '720p'
+  video_codec: 'h264'
+  audio_codec: 'AAC'
+  website: 'MVGroup.org'
+  title: 'Whats Wrong With Our Weather'

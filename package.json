@@ -1,8 +1,8 @@
 {
 	"name": "epinfer",
 	"description": "Extract as much information as possible from a filename.",
-	"version": "1.1.0",
-	"author": "Jelle De Loecker <jelle@kipdola.be>",
+	"version": "1.1.1",
+	"author": "Jelle De Loecker <jelle@develry.be>",
 	"keywords": [
 		"file",
 		"name",
