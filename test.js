@@ -29,7 +29,6 @@ var tests = [
 	'FooBar.7.PDTV-FlexGet',
 	'Duckman - 101 (01) - 20021107 - I, Duckman.avi',
 	'FlexGet.14.of.21.Title.Here.720p.HDTV.AAC5.1.x264-NOGRP',
-	'Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi',
 	'Doctor Who (2005) - S06E13 - The Wedding of River Song.mkv',
 	'Marvels.Agents.of.S.H.I.E.L.D.S01E06.720p.HDTV.X264-DIMENSION.mkv',
 	'Friday Night Lights S01E19 - Ch-Ch-Ch-Ch-Changes.avi',
@@ -45,16 +44,40 @@ var tests = [
 	'Vikings_S03e01-10_[Mux_-_1080p_-_H264_-_Ita_Ac3_Eng_Ac3_5.1_-_So.rar',
 	'series/Psych/Psych S02 Season 2 Complete English DVD/Psych.S02E02.65.Million.Years.Off.avi',
 
-	// New tests
-	'BBC.Horizon.2014.Whats.Wrong.with.Our.Weather.720p.HDTV.x264.AAC.MVGroup.org.mkv',
-
 	// "CAM" issue
 	'montebello.camping.s01e01.720p-barehd.mkv',
+
+	// New tests
+	'BBC.Horizon.2014.Whats.Wrong.with.Our.Weather.720p.HDTV.x264.AAC.MVGroup.org.mkv',
+	'Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi',
+
+	'Fearless.S01E03.720p.HDTV.x264.ORGANiC.UKSubs.mp4',
+	'Wildest.Indochina.S01E03.Cambodia.the.Water.Kingdom.720p.HDTV.x264.AAC-MVGroup.org.mp4',
+	'Vikings.1x03.La.Pêche.Miraculeuse.FR.LD.HDTV.XviD-MiND.[tvu.org.ru].part01.rar',
+
+	// Giberish
+	'abcdefghijklmnopqrstuvwxyzabcdefghijkl.'
+	//'Playboy.Special-Editions.2014.09.15.-.Jaclyn.Swedberg.In.Artful.Grace.720p.WEBRip.x264.[tvu.org.ru].mp4'
 
 	// Movie tests?
 	//'Die Hard 1988 1080p BluRay Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo.mkv',
 	//'The.Hobbit.The.Desolation.Of.Smaug.2013.1080p.BluRay.DTS.x264-HDMaNiAcS.mkv',
 ];
+
+// var r = /(?=[A-Z0-9]+\.)((?:[A-Z0-9]{2,})+\.org)/gi;
+// var n = /(?=[A-Z0-9]+\.)([A-Z0-9]{2,}\.org)/gi;
+// var Blast = require('protoblast')(true);
+
+// Function.benchmark(function withGroup() {
+// 	r.exec('Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi');
+// });
+
+
+// Function.benchmark(function withNoGroup() {
+// 	n.exec('Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi');
+// });
+
+// return
 
 tests.forEach(function(name) {
 
@@ -64,12 +87,21 @@ tests.forEach(function(name) {
 	    obj,
 	    key;
 
+	let start = Date.now();
+
+	// o = /(?=[A-Z0-9]+\.)((?:[A-Z0-9]{2,})+\.org)/gi.exec(name);
+	// console.log(o)
+	// return
+
 	result = epinfer.process(name);
 	data = result.getData();
+
+	let end = Date.now() - start;
 
 	console.log('\nProcessing "' + name + '":');
 	console.log(result.usedString('_'));
 	console.log(result.getData());
+	console.log(' -- Took ' + end + 'ms');
 
 	temp = {};
 

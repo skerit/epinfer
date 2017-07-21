@@ -510,3 +510,33 @@ BBC.Horizon.2014.Whats.Wrong.with.Our.Weather.720p.HDTV.x264.AAC.MVGroup.org.mkv
   audio_codec: 'AAC'
   website: 'MVGroup.org'
   title: 'Whats Wrong With Our Weather'
+
+Wildest.Indochina.S01E03.Cambodia.the.Water.Kingdom.720p.HDTV.x264.AAC-MVGroup.org.mp4:
+  subtype: 'episode'
+  container: 'MPEG-4 Part 14'
+  extension: 'mp4'
+  filetype: 'video'
+  episode: 3
+  season: 1
+  format: 'HDTV'
+  screen_size: '720p'
+  video_codec: 'h264'
+  audio_codec: 'AAC'
+  website: 'MVGroup.org'
+  series: 'Wildest Indochina'
+  title: 'Cambodia The Water Kingdom'
+
+Vikings.1x03.La.Pêche.Miraculeuse.FR.LD.HDTV.XviD-MiND.[tvu.org.ru].mp4:
+  subtype: 'episode'
+  container: 'MPEG-4 Part 14'
+  extension: 'mp4'
+  filetype: 'video'
+  episode: 3
+  season: 1
+  format: 'HDTV'
+  video_codec: 'XviD'
+  language: 'French'
+  website: 'tvu.org.ru'
+  series: 'Vikings'
+  release_group: 'MiND'
+  title: 'La Pêche Miraculeuse'
