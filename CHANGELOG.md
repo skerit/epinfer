@@ -1,3 +1,7 @@
+## 1.1.2 (2017-07-21)
+
+* Fix catastrophic backtracking in website extraction tests
+
 ## 1.1.1 (2017-05-16)
 
 * Fix "cam" being recognized as a CAM release too easily
