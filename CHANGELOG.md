@@ -1,4 +1,4 @@
-## 1.1.3 (WIP)
+## 1.1.3 (2017-07-22)
 
 * Add `channel` property (Amazon, Netflix, YouTube Red)
 * Add `VP8` and `VP9` video codecs
