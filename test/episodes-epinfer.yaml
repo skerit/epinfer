@@ -552,3 +552,57 @@ Dara.O.Briains.Go.8Bit.S01E01.WEB.h264-TASTETV.mkv:
   video_codec: 'h264'
   release_group: 'TASTETV'
   series: 'Dara O Briains Go 8bit'
+
+Adventure.Time.S09E01.1080p.WEB-DL.AAC2.0.H.264-RTN.mp4:
+  subtype: 'episode'
+  container: 'MPEG-4 Part 14'
+  extension: 'mp4'
+  filetype: 'video'
+  episode: 1
+  season: 9
+  format: 'WEB-DL'
+  screen_size: '1080p'
+  video_codec: 'h264'
+  audio_codec: 'AAC'
+  audio_channels: '2.0'
+  release_group: 'RTN'
+  series: 'Adventure Time'
+
+The.Profit.S04E17.720p.HDTV.x264-W4F.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 17
+  season: 4
+  format: 'HDTV'
+  screen_size: '720p'
+  video_codec: 'h264'
+  release_group: 'W4F'
+  series: 'The Profit'
+
+The.Profit.S03E22.A.Progress.Report.4.720p.HDTV.x264-W4F.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 22
+  season: 3
+  format: 'HDTV'
+  screen_size: '720p'
+  video_codec: 'h264'
+  release_group: 'W4F'
+  series: 'The Profit'
+  title: 'A Progress Report 4'
+
+Boruto.Naruto.Next.Generations.E016.720p.WEB.x264-ANiURL.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 16
+  format: 'WEB-DL'
+  screen_size: '720p'
+  video_codec: 'h264'
+  release_group: 'ANiURL'
+  series: 'Boruto Naruto Next Generations'
