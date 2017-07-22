@@ -61,7 +61,7 @@ var tests = [
 	//'Playboy.Special-Editions.2014.09.15.-.Jaclyn.Swedberg.In.Artful.Grace.720p.WEBRip.x264.[tvu.org.ru].mp4'
 
 	// New
-	'Criminals.Caught.on.Camera.S02E01.Gangs.and.Guns.INTERNAL.480p.x264-mSD.nzb'
+	'Good.Behavior.S01E04.Your.Mama.Had.a.Hard.Night.Uncensored.720p.WEB-DL.DD5.1.H264-RTN.mkv'
 
 	// Movie tests?
 	//'Die Hard 1988 1080p BluRay Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo.mkv',
