@@ -540,3 +540,15 @@ Vikings.1x03.La.Pêche.Miraculeuse.FR.LD.HDTV.XviD-MiND.[tvu.org.ru].mp4:
   series: 'Vikings'
   release_group: 'MiND'
   title: 'La Pêche Miraculeuse'
+
+Dara.O.Briains.Go.8Bit.S01E01.WEB.h264-TASTETV.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 1
+  season: 1
+  format: 'WEB-DL'
+  video_codec: 'h264'
+  release_group: 'TASTETV'
+  series: 'Dara O Briains Go 8bit'
