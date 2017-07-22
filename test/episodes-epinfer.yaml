@@ -606,3 +606,18 @@ Boruto.Naruto.Next.Generations.E016.720p.WEB.x264-ANiURL.mkv:
   video_codec: 'h264'
   release_group: 'ANiURL'
   series: 'Boruto Naruto Next Generations'
+
+Friends.from.College.S01E03.All-Nighter.2160p.NF.WEBRip.DD5.1.x264-NTb.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 3
+  season: 1
+  format: 'WEBRip'
+  screen_size: '4K'
+  video_codec: 'h264'
+  audio_channels: '5.1'
+  release_group: 'NTb'
+  series: 'Friends From College'
+  title: 'All-Nighter'
