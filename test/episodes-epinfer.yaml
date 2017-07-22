@@ -614,6 +614,7 @@ Friends.from.College.S01E03.All-Nighter.2160p.NF.WEBRip.DD5.1.x264-NTb.mkv:
   filetype: 'video'
   episode: 3
   season: 1
+  channel: 'Netflix'
   format: 'WEBRip'
   screen_size: '4K'
   video_codec: 'h264'
@@ -621,3 +622,195 @@ Friends.from.College.S01E03.All-Nighter.2160p.NF.WEBRip.DD5.1.x264-NTb.mkv:
   release_group: 'NTb'
   series: 'Friends From College'
   title: 'All-Nighter'
+
+Escape.the.Night.S01E11.How.To.Kill.A.YouTuber.1080p.RED.WEBRip.AAC5.1.H.264-LAZY.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 11
+  season: 1
+  channel: 'YouTube Red'
+  format: 'WEBRip'
+  screen_size: '1080p'
+  video_codec: 'h264'
+  audio_codec: 'AAC'
+  audio_channels: '5.1'
+  release_group: 'LAZY'
+  series: 'Escape The Night'
+  title: 'How To Kill A Youtuber'
+
+Shattered.S01E13.WEBRip.x264-TASTETV.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 13
+  season: 1
+  format: 'WEBRip'
+  video_codec: 'h264'
+  release_group: 'TASTETV'
+  series: 'Shattered'
+
+Bosch.S01E05.2160p.Amazon.WEBRip.DD5.1.x264-TrollUHD.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 5
+  season: 1
+  channel: 'Amazon'
+  format: 'WEBRip'
+  screen_size: '4K'
+  video_codec: 'h264'
+  audio_channels: '5.1'
+  release_group: 'TrollUHD'
+  series: 'Bosch'
+
+The.Blacklist.S02E10.2160p.WEBRip.DTS-HD.MA5.1.x264-TrollUHD.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 10
+  season: 2
+  format: 'WEBRip'
+  screen_size: '4K'
+  video_codec: 'h264'
+  audio_codec: 'DTS-HD Master Audio'
+  audio_channels: '5.1'
+  release_group: 'TrollUHD'
+  series: 'The Blacklist'
+
+The.Handmaids.Tale.S01E01.Offred.720p.AMZN.WEBRip.DDP5.1.x264-NTb.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 1
+  season: 1
+  channel: 'Amazon'
+  format: 'WEBRip'
+  screen_size: '720p'
+  video_codec: 'h264'
+  audio_codec: 'Dolby Digital Plus'
+  audio_channels: '5.1'
+  release_group: 'NTb'
+  series: 'The Handmaids Tale'
+  title: 'Offred'
+
+Escape.The.Night.S02E03.2160p.RED.WEB-DL.AAC5.1.VP9-BTW.mp4:
+  subtype: 'episode'
+  container: 'MPEG-4 Part 14'
+  extension: 'mp4'
+  filetype: 'video'
+  episode: 3
+  season: 2
+  channel: 'YouTube Red'
+  format: 'WEB-DL'
+  screen_size: '4K'
+  video_codec: 'VP9'
+  audio_codec: 'AAC'
+  audio_channels: '5.1'
+  release_group: 'BTW'
+  series: 'Escape The Night'
+
+Planet.Earth.II.S01E05.2160p.UHD.BluRay.HDR.DTS-HD.MA5.1.x265-ULTRAHDCLUB.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 5
+  season: 1
+  format: 'BluRay'
+  screen_size: '4K'
+  video_codec: 'h265'
+  audio_codec: 'DTS-HD Master Audio'
+  audio_channels: '5.1'
+  release_group: 'ULTRAHDCLUB'
+  hdr: true
+  series: 'Planet Earth Ii'
+
+Bible.Secrets.Revealed.S01E01.Lost.in.Translation.1080p.WEB.h264-UNDERBELLY.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 1
+  season: 1
+  format: 'WEB-DL'
+  screen_size: '1080p'
+  video_codec: 'h264'
+  release_group: 'UNDERBELLY'
+  series: 'Bible Secrets Revealed'
+  title: 'Lost In Translation'
+
+Criminals.Caught.on.Camera.S02E01.Gangs.and.Guns.INTERNAL.480p.x264-mSD.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 1
+  season: 2
+  screen_size: '480p'
+  video_codec: 'h264'
+  release_group: 'mSD'
+  series: 'Criminals Caught On Camera'
+  title: 'Gangs And Guns'
+  release_type: 'Internal'
+
+Queen.of.the.South.S02E07.PROPER.480p.x264-mSD.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 7
+  season: 2
+  proper_count: 1
+  screen_size: '480p'
+  video_codec: 'h264'
+  release_group: 'mSD'
+  series: 'Queen Of The South'
+
+Kitchen.Nightmares.US.S05E03.UNCENSORED.WEB.h264-TASTETV.nzb:
+  subtype: 'episode'
+  container: 'NewzBin Usenet Index File'
+  extension: 'nzb'
+  filetype: 'index'
+  episode: 3
+  season: 5
+  format: 'WEB-DL'
+  video_codec: 'h264'
+  release_group: 'TASTETV'
+  uncensored: true
+  series: 'Kitchen Nightmares Us'
+
+Good.Behavior.S01E04.Your.Mama.Had.a.Hard.Night.Uncensored.720p.WEB-DL.DD5.1.H264-RTN.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 4
+  season: 1
+  format: 'WEB-DL'
+  screen_size: '720p'
+  video_codec: 'h264'
+  audio_codec: 'DolbyDigital'
+  audio_channels: '5.1'
+  release_group: 'RTN'
+  uncensored: true
+  series: 'Good Behavior'
+  title: 'Your Mama Had A Hard Night'
+
+Mysteries.at.the.Museum.S16E12.iNTERNAL.480p.x264-mSD.mkv:
+  subtype: 'episode'
+  container: 'Matroska'
+  extension: 'mkv'
+  filetype: 'video'
+  episode: 12
+  season: 16
+  screen_size: '480p'
+  video_codec: 'h264'
+  release_type: 'Internal'
+  release_group: 'mSD'
+  series: 'Mysteries At The Museum'

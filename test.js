@@ -1,6 +1,7 @@
 var epinfer = require('./index.js');
 //epinfer.debug = true;
 var yaml = require('js-yaml');
+var Blast = require('protoblast')(true);
 
 var tests = [
 	'Breaking.Bad.(Minisodes).01.Good.Cop.Bad.Cop.WEBRip.XviD.avi',
@@ -56,8 +57,11 @@ var tests = [
 	'Vikings.1x03.La.Pêche.Miraculeuse.FR.LD.HDTV.XviD-MiND.[tvu.org.ru].part01.rar',
 
 	// Giberish
-	'abcdefghijklmnopqrstuvwxyzabcdefghijkl.'
+	'abcdefghijklmnopqrstuvwxyzabcdefghijkl.',
 	//'Playboy.Special-Editions.2014.09.15.-.Jaclyn.Swedberg.In.Artful.Grace.720p.WEBRip.x264.[tvu.org.ru].mp4'
+
+	// New
+	'Criminals.Caught.on.Camera.S02E01.Gangs.and.Guns.INTERNAL.480p.x264-mSD.nzb'
 
 	// Movie tests?
 	//'Die Hard 1988 1080p BluRay Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo.mkv',
@@ -66,7 +70,6 @@ var tests = [
 
 // var r = /(?=[A-Z0-9]+\.)((?:[A-Z0-9]{2,})+\.org)/gi;
 // var n = /(?=[A-Z0-9]+\.)([A-Z0-9]{2,}\.org)/gi;
-// var Blast = require('protoblast')(true);
 
 // Function.benchmark(function withGroup() {
 // 	r.exec('Dexter.5x02.Hello,.Bandit.ENG.-.sub.FR.HDTV.XviD-AlFleNi-TeaM.[tvu.org.ru].avi');
@@ -118,4 +121,12 @@ tests.forEach(function(name) {
 
 	// Output YAML string
 	//console.log(yaml.dump(obj, {sortKeys: true}))
+});
+
+Function.benchmark(function doWithoutWebsite() {
+	epinfer.process('Fearless.S01E03.720p.HDTV.x264.ORGANiC.UKSubs.mp4');
+});
+
+Function.benchmark(function doWithWebsite() {
+	epinfer.process('Vikings.1x03.La.Pêche.Miraculeuse.FR.LD.HDTV.XviD-MiND.[tvu.org.ru].mp4');
 });

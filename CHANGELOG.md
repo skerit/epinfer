@@ -1,3 +1,11 @@
+## 1.1.3 (WIP)
+
+* Add `channel` property (Amazon, Netflix, YouTube Red)
+* Add `VP8` and `VP9` video codecs
+* Add Dolby Digital Plus audio codec and fix some other matches
+* Add `release_type` property (INTERNAL)
+* Add `uncensored` and `hdr` flag
+
 ## 1.1.2 (2017-07-21)
 
 * Fix catastrophic backtracking in website extraction tests
