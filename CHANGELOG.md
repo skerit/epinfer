@@ -1,3 +1,7 @@
+## 1.1.4 (2017-10-25)
+
+* Fix string "br" always being picked up as "Blu-ray", even when part of a word
+
 ## 1.1.3 (2017-07-22)
 
 * Add `channel` property (Amazon, Netflix, YouTube Red)

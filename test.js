@@ -61,7 +61,10 @@ var tests = [
 	//'Playboy.Special-Editions.2014.09.15.-.Jaclyn.Swedberg.In.Artful.Grace.720p.WEBRip.x264.[tvu.org.ru].mp4'
 
 	// New
-	'Good.Behavior.S01E04.Your.Mama.Had.a.Hard.Night.Uncensored.720p.WEB-DL.DD5.1.H264-RTN.mkv'
+	'Good.Behavior.S01E04.Your.Mama.Had.a.Hard.Night.Uncensored.720p.WEB-DL.DD5.1.H264-RTN.mkv',
+
+	// 2 broke girls issue
+	'2.Broke.Girls.S03E10.480p.x264-mSD.mkv'
 
 	// Movie tests?
 	//'Die Hard 1988 1080p BluRay Remux AVC DTS-HD MA 5.1 - KRaLiMaRKo.mkv',

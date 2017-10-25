@@ -814,3 +814,21 @@ Mysteries.at.the.Museum.S16E12.iNTERNAL.480p.x264-mSD.mkv:
   release_type: 'Internal'
   release_group: 'mSD'
   series: 'Mysteries At The Museum'
+
+2.Broke.Girls.S03E10.480p.HDTV.x264-mSD.mkv:
+  series: 2 Broke Girls
+  season: 3
+  episode: 10
+  screen_size: 480p
+  format: HDTV
+  video_codec: h264
+  release_group: mSD
+
+2.Broke.Girls.S03E10.480p.x264-mSD.mkv:
+  series: 2 Broke Girls
+  season: 3
+  episode: 10
+  screen_size: 480p
+  format: null
+  video_codec: h264
+  release_group: mSD
